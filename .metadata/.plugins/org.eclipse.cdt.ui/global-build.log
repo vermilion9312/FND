@@ -1,0 +1,233 @@
+10:09:31 **** Incremental Build of configuration Debug for project FND ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "FND.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Github\FND\FND\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="FND.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: FND.elf
+ 
+arm-none-eabi-size  FND.elf 
+arm-none-eabi-objdump -h -S FND.elf  > "FND.list"
+   text	   data	    bss	    dec	    hex	filename
+   4592	     12	   1572	   6176	   1820	FND.elf
+Finished building: default.size.stdout
+ 
+Finished building: FND.list
+ 
+10:09:36 **** Incremental Build of configuration Debug for project FND ****
+make -j16 all 
+arm-none-eabi-size  FND.elf 
+   text	   data	    bss	    dec	    hex	filename
+   4592	     12	   1572	   6176	   1820	FND.elf
+Finished building: default.size.stdout
+ 
+10:10:04 **** Incremental Build of configuration Debug for project FND ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "FND.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Github\FND\FND\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="FND.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: FND.elf
+ 
+arm-none-eabi-size  FND.elf 
+arm-none-eabi-objdump -h -S FND.elf  > "FND.list"
+   text	   data	    bss	    dec	    hex	filename
+   4556	     12	   1572	   6140	   17fc	FND.elf
+Finished building: default.size.stdout
+ 
+Finished building: FND.list
+ 
+10:10:35 **** Incremental Build of configuration Debug for project FND ****
+make -j16 all 
+arm-none-eabi-size  FND.elf 
+   text	   data	    bss	    dec	    hex	filename
+   4556	     12	   1572	   6140	   17fc	FND.elf
+Finished building: default.size.stdout
+ 
+10:19:21 **** Incremental Build of configuration Debug for project FND ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "FND.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Github\FND\FND\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="FND.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: FND.elf
+ 
+arm-none-eabi-size  FND.elf 
+arm-none-eabi-objdump -h -S FND.elf  > "FND.list"
+   text	   data	    bss	    dec	    hex	filename
+   4556	     12	   1572	   6140	   17fc	FND.elf
+Finished building: default.size.stdout
+ 
+Finished building: FND.list
+ 
+10:22:21 **** Incremental Build of configuration Debug for project FND ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "FND.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Github\FND\FND\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="FND.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: FND.elf
+ 
+arm-none-eabi-size  FND.elf 
+arm-none-eabi-objdump -h -S FND.elf  > "FND.list"
+   text	   data	    bss	    dec	    hex	filename
+   4556	     12	   1572	   6140	   17fc	FND.elf
+Finished building: default.size.stdout
+ 
+Finished building: FND.list
+ 
+10:26:23 **** Incremental Build of configuration Debug for project FND ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "FND.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Github\FND\FND\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="FND.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: FND.elf
+ 
+arm-none-eabi-size  FND.elf 
+arm-none-eabi-objdump -h -S FND.elf  > "FND.list"
+   text	   data	    bss	    dec	    hex	filename
+   4636	     12	   1572	   6220	   184c	FND.elf
+Finished building: default.size.stdout
+ 
+Finished building: FND.list
+ 
+10:29:51 **** Incremental Build of configuration Debug for project FND ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "FND.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Github\FND\FND\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="FND.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: FND.elf
+ 
+arm-none-eabi-size  FND.elf 
+arm-none-eabi-objdump -h -S FND.elf  > "FND.list"
+   text	   data	    bss	    dec	    hex	filename
+   4592	     12	   1572	   6176	   1820	FND.elf
+Finished building: default.size.stdout
+ 
+Finished building: FND.list
+ 
+10:32:50 **** Incremental Build of configuration Debug for project FND ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "FND.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Github\FND\FND\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="FND.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: FND.elf
+ 
+arm-none-eabi-size  FND.elf 
+arm-none-eabi-objdump -h -S FND.elf  > "FND.list"
+   text	   data	    bss	    dec	    hex	filename
+   4672	     12	   1572	   6256	   1870	FND.elf
+Finished building: default.size.stdout
+ 
+Finished building: FND.list
+ 
+10:38:45 **** Incremental Build of configuration Debug for project FND ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:99:11: warning: implicit declaration of function 'send_port' [-Wimplicit-function-declaration]
+   99 |           send_port(0xF8, 0b0010);
+      |           ^~~~~~~~~
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:192:6: warning: conflicting types for 'send_port'; have 'void(uint8_t,  uint8_t)' {aka 'void(unsigned char,  unsigned char)'}
+  192 | void send_port (uint8_t data, uint8_t port)
+      |      ^~~~~~~~~
+../Core/Src/main.c:99:11: note: previous implicit declaration of 'send_port' with type 'void(uint8_t,  uint8_t)' {aka 'void(unsigned char,  unsigned char)'}
+   99 |           send_port(0xF8, 0b0010);
+      |           ^~~~~~~~~
+arm-none-eabi-gcc -o "FND.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Github\FND\FND\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="FND.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: FND.elf
+ 
+arm-none-eabi-size  FND.elf 
+arm-none-eabi-objdump -h -S FND.elf  > "FND.list"
+   text	   data	    bss	    dec	    hex	filename
+   4708	     12	   1572	   6292	   1894	FND.elf
+Finished building: default.size.stdout
+ 
+Finished building: FND.list
+ 
+10:39:14 **** Incremental Build of configuration Debug for project FND ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "FND.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Github\FND\FND\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="FND.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: FND.elf
+ 
+arm-none-eabi-size  FND.elf 
+arm-none-eabi-objdump -h -S FND.elf  > "FND.list"
+   text	   data	    bss	    dec	    hex	filename
+   4708	     12	   1572	   6292	   1894	FND.elf
+Finished building: default.size.stdout
+ 
+Finished building: FND.list
+ 
+13:42:13 **** Incremental Build of configuration Debug for project FND ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "FND.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Github\FND\FND\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="FND.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: FND.elf
+ 
+arm-none-eabi-size  FND.elf 
+arm-none-eabi-objdump -h -S FND.elf  > "FND.list"
+   text	   data	    bss	    dec	    hex	filename
+   4708	     12	   1572	   6292	   1894	FND.elf
+Finished building: default.size.stdout
+ 
+Finished building: FND.list
+ 
+13:42:45 **** Incremental Build of configuration Debug for project FND ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "FND.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Github\FND\FND\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="FND.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: FND.elf
+ 
+arm-none-eabi-size  FND.elf 
+arm-none-eabi-objdump -h -S FND.elf  > "FND.list"
+   text	   data	    bss	    dec	    hex	filename
+   4708	     12	   1572	   6292	   1894	FND.elf
+Finished building: default.size.stdout
+ 
+Finished building: FND.list
+ 
+14:28:37 **** Incremental Build of configuration Debug for project FND ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "FND.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Github\FND\FND\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="FND.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: FND.elf
+ 
+arm-none-eabi-size  FND.elf 
+arm-none-eabi-objdump -h -S FND.elf  > "FND.list"
+   text	   data	    bss	    dec	    hex	filename
+   4636	     12	   1572	   6220	   184c	FND.elf
+Finished building: default.size.stdout
+ 
+Finished building: FND.list
+ 
+15:05:20 **** Incremental Build of configuration Debug for project FND ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:100:11: error: too many arguments to function 'send'
+  100 |           send(0b11111110, 0b0001);
+      |           ^~~~
+../Core/Src/main.c:52:6: note: declared here
+   52 | void send(uint8_t data);
+      |      ^~~~
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+15:05:33 **** Incremental Build of configuration Debug for project FND ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "FND.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Github\FND\FND\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="FND.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: FND.elf
+ 
+arm-none-eabi-size  FND.elf 
+arm-none-eabi-objdump -h -S FND.elf  > "FND.list"
+   text	   data	    bss	    dec	    hex	filename
+   4708	     12	   1572	   6292	   1894	FND.elf
+Finished building: default.size.stdout
+ 
+Finished building: FND.list
+ 
+16:01:17 **** Incremental Build of configuration Debug for project FND ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "FND.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Github\FND\FND\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="FND.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: FND.elf
+ 
+arm-none-eabi-size  FND.elf 
+arm-none-eabi-objdump -h -S FND.elf  > "FND.list"
+   text	   data	    bss	    dec	    hex	filename
+   4708	     12	   1572	   6292	   1894	FND.elf
+Finished building: default.size.stdout
+ 
+Finished building: FND.list
+ 
